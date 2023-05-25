@@ -1,0 +1,9 @@
+2023-05-25 12:28:48 Endpoints other than open requested but private key and certificate are not set.
+2023-05-25 12:28:48 INFO:     Started server process [1]
+2023-05-25 12:28:48 INFO:     Waiting for application startup.
+2023-05-25 12:28:48 INFO:     Application startup complete.
+2023-05-25 12:28:48 INFO:     Uvicorn running on http://0.0.0.0:5008 (Press CTRL+C to quit)
+2023-05-25 12:30:44 Error: [Errno 99] error while attempting to bind on address ('::1', 5007, 0, 0): cannot assign requested address
+2023-05-25 12:30:44 INFO:     172.17.0.1:55838 - "GET / HTTP/1.1" 404 Not Found
+2023-05-25 12:31:43 INFO:     172.17.0.1:55846 - "GET /docs HTTP/1.1" 200 OK
+2023-05-25 12:31:43 INFO:     172.17.0.1:55846 - "GET /openapi.json HTTP/1.1" 200 OK
